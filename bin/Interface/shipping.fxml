@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="769.0" prefWidth="1115.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Label layoutX="274.0" layoutY="36.0" prefHeight="89.0" prefWidth="567.0" text="Newark IT Company">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="46.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="169.0" text="Shipping Address">
+         <font>
+            <Font name="Calibri Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextField layoutX="107.0" layoutY="210.0" promptText="Recepient Name" />
+      <TextField layoutX="107.0" layoutY="258.0" promptText="Street" />
+      <TextField layoutX="107.0" layoutY="310.0" promptText="SNumber" />
+      <TextField layoutX="107.0" layoutY="354.0" promptText="City" />
+      <TextField layoutX="107.0" layoutY="405.0" promptText="Zip" />
+      <TextField layoutX="107.0" layoutY="457.0" promptText="State" />
+      <TextField layoutX="107.0" layoutY="508.0" promptText="Country" />
+      <Button layoutX="107.0" layoutY="562.0" mnemonicParsing="false" text="ADD" />
+   </children>
+</AnchorPane>

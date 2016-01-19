@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="891.0" prefWidth="1286.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="243.0" layoutY="4.0" prefHeight="89.0" prefWidth="567.0" text="Newark IT Company">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="46.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="22.0" prefHeight="26.0" prefWidth="44.0" text="User">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="25.0" text="Label" />
+      <Button layoutX="1180.0" layoutY="20.0" mnemonicParsing="false" text="Sign Out" />
+      <ImageView fitHeight="258.0" fitWidth="284.0" layoutX="58.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/computer1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="206.0" fitWidth="306.0" layoutX="399.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/MacbookPro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="208.0" fitWidth="300.0" layoutX="810.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/All-in-One%20Color%20Printer.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="115.0" layoutY="404.0" text="COST: $500">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="500.0" layoutY="359.0" text="COST: $1000">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="914.0" layoutY="375.0" prefHeight="31.0" prefWidth="118.0" text="COST: $200">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button layoutX="1162.0" layoutY="814.0" mnemonicParsing="false" text="ADD TO CART" />
+      <Text layoutX="177.0" layoutY="451.0" strikethrough="true" strokeType="OUTSIDE" strokeWidth="0.0" text="\$500">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="564.0" layoutY="412.0" strikethrough="true" strokeType="OUTSIDE" strokeWidth="0.0" text="\$1000">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="986.0" layoutY="428.0" strikethrough="true" strokeType="OUTSIDE" strokeWidth="0.0" text="\$200">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="226.0" layoutY="452.0" strokeType="OUTSIDE" strokeWidth="0.0" text="450">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="625.0" layoutY="411.0" strokeType="OUTSIDE" strokeWidth="0.0" text="800">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="1033.0" layoutY="427.0" strokeType="OUTSIDE" strokeWidth="0.0" text="175">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="200.0" fitWidth="250.0" layoutX="77.0" layoutY="543.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/computer.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="459.0" layoutY="543.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/laptop_PNG5905.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="198.0" fitWidth="220.0" layoutX="881.0" layoutY="542.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/725f98f7-449c-4b59-9144-dd1659903af4._CB322701076_.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="145.0" layoutY="472.0" mnemonicParsing="false" text="SELECT" />
+      <Button layoutX="577.0" layoutY="442.0" mnemonicParsing="false" text="SELECT" />
+      <Button layoutX="979.0" layoutY="442.0" mnemonicParsing="false" text="SELECT" />
+      <Button layoutX="158.0" layoutY="790.0" mnemonicParsing="false" text="SELECT" />
+      <Button layoutX="530.0" layoutY="775.0" mnemonicParsing="false" text="SELECT" />
+      <Button layoutX="955.0" layoutY="790.0" mnemonicParsing="false" text="SELECT" />
+      <Text layoutX="169.0" layoutY="735.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COST: 500">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="545.0" layoutY="718.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COST: 1000">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="941.0" layoutY="763.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COST: 100">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="188.0" layoutY="760.0" strikethrough="true" strokeType="OUTSIDE" strokeWidth="0.0" text="\$500">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="583.0" layoutY="749.0" strikethrough="true" strokeType="OUTSIDE" strokeWidth="0.0" text="\$1000">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="246.0" layoutY="760.0" strokeType="OUTSIDE" strokeWidth="0.0" text="490">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="645.0" layoutY="746.0" strokeType="OUTSIDE" strokeWidth="0.0" text="850">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="793.0" prefWidth="1255.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.signUp">
+   <children>
+      <Label layoutX="351.0" layoutY="46.0" prefHeight="89.0" prefWidth="567.0" text="Newark IT Company">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="46.0" />
+         </font>
+      </Label>
+      <TextField fx:id="firstName" layoutX="102.0" layoutY="187.0" promptText="First Name" />
+      <TextField fx:id="lastName" layoutX="308.0" layoutY="187.0" promptText="Last Name" />
+      <TextField fx:id="email" layoutX="102.0" layoutY="237.0" promptText="Email" />
+      <TextField fx:id="address" layoutX="102.0" layoutY="290.0" promptText="Address" />
+      <TextField fx:id="pNumber" layoutX="102.0" layoutY="346.0" promptText="Phone Number" />
+      <RadioButton fx:id="regular" layoutX="102.0" layoutY="403.0" mnemonicParsing="false" selected="true" text="Regular">
+         <toggleGroup>
+            <ToggleGroup fx:id="membership" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="silver" layoutX="196.0" layoutY="403.0" mnemonicParsing="false" text="Silver" toggleGroup="$membership" />
+      <RadioButton fx:id="gold" layoutX="281.0" layoutY="403.0" mnemonicParsing="false" text="Gold" toggleGroup="$membership" />
+      <RadioButton fx:id="platinum" layoutX="363.0" layoutY="403.0" mnemonicParsing="false" text="Platinum" toggleGroup="$membership" />
+      <Button fx:id="myBtnYo" layoutX="853.0" layoutY="275.0" mnemonicParsing="false" text="Click Me" onAction="#theMethod" />
+   </children>
+</AnchorPane>

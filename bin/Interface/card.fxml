@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="860.0" prefWidth="1194.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Label layoutX="305.0" layoutY="14.0" prefHeight="89.0" prefWidth="567.0" text="Newark IT Company">
+         <font>
+            <Font name="Lucida Handwriting Italic" size="46.0" />
+         </font>
+      </Label>
+      <Text layoutX="86.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Bill">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="94.0" layoutY="506.0" mnemonicParsing="false" text="Remember Card Details" />
+      <Button layoutX="150.0" layoutY="570.0" mnemonicParsing="false" text="PAY" />
+   </children>
+</AnchorPane>

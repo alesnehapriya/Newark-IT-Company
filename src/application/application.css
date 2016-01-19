@@ -1,0 +1,259 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#pane{
+    -fx-background-image: url("background.jpg");
+    -fx-background-repeat: stretch;   
+
+}
+#clock{
+	-fx-font-size: 20pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: black;
+    -fx-opacity: 0.6;
+}
+.tab-pane > .tab-header-area > .headers-region > .tab:top {  
+    -fx-border-color: #a3a7a8;  
+    -fx-border-radius: 5 5 0 0;  
+    -fx-background-color: white;  
+    -fx-pref-height: 40px;    
+    -fx-background-insets: 0;  
+}  
+  
+.tab-pane > .tab-header-area > .headers-region > .tab:selected:top {  
+    -fx-border-color: #2381E9 #a3a7a8 #a3a7a8 #a3a7a8;  
+    -fx-border-width: 5 1 1 1;     
+    -fx-border-radius: 5 5 0 0;  
+    -fx-background-color: white;  
+    -fx-pref-height: 40px;    
+    -fx-background-insets: 0;  
+}  
+  
+  
+.tab-pane > .tab-header-area > .headers-region > .tab:selected > .tab-container > .tab-label {  
+    -fx-alignment: CENTER;  
+    -fx-text-fill: #2381E9;  
+    -fx-font-weight: bold;  
+}  
+  
+  
+.tab-pane > .tab-header-area > .headers-region > .tab > .tab-container > .tab-label {  
+    -fx-alignment: CENTER;  
+    -fx-text-fill: #2381E9;  
+    -fx-font-weight: bold;  
+}  
+  
+  
+.tab-pane > .tab-header-area > .tab-header-background {  
+    -fx-background-color:white;  
+    -fx-border-color: #a3a7a8;  
+    -fx-border-width: 0 0 1 0;  
+    -fx-background-insets: 0;  
+    -fx-pref-height: 45px;    
+}  
+#tableIDR {
+-fx-base: rgb(50, 50, 50);
+-fx-background: rgb(50, 50, 50);
+-fx-control-inner-background:  rgb(50, 50, 50);
+}
+
+#tableID  {
+-fx-base: rgb(50, 50, 50);
+-fx-background: rgb(50, 50, 50);
+-fx-control-inner-background:  rgb(50, 50, 50);
+}
+
+#table{
+-fx-base: rgb(50, 50, 50);
+-fx-background: rgb(50, 50, 50);
+-fx-control-inner-background:  rgb(50, 50, 50);	
+}
+ 
+.tab {
+-fx-background-color: linear-gradient(to top, -fx-base, derive(-fx-base,30%));
+}
+ 
+.menu-bar {
+-fx-background-color: linear-gradient(to bottom, -fx-base, derive(-fx-base,30%));
+}
+ 
+.tool-bar:horizontal {
+-fx-background-color:
+linear-gradient(to bottom, derive(-fx-base,+50%), derive(-fx-base,-40%), derive(-fx-base,-20%));
+}
+ 
+.button {
+-fx-background-color: transparent;
+}
+ 
+.button:hover {
+-fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+-fx-color: -fx-hover-base;
+}
+ 
+.table-view {
+-fx-table-cell-border-color:derive(-fx-base,+10%);
+-fx-table-header-border-color:derive(-fx-base,+20%);
+}
+ 
+.split-pane:horizontal > * > .split-pane-divider {
+-fx-border-color: transparent -fx-base transparent -fx-base;
+-fx-background-color: transparent, derive(-fx-base,20%);
+-fx-background-insets: 0, 0 1 0 1;
+}
+ 
+.my-gridpane {
+-fx-background-color: radial-gradient(radius 100%, derive(-fx-base,20%), derive(-fx-base,-20%));
+}
+ 
+.separator-label {
+-fx-text-fill: orange;
+}
+
+.text-field {
+	-fx-background-color: white;
+    -fx-background-insets: -0.4, 1, 2;
+    -fx-background-radius: 3.4, 2, 2;
+    -fx-text-fill: derive(-fx-control-inner-background,+80%)
+}
+
+.text-input {
+    -fx-text-fill: -fx-text-inner-color;
+    -fx-highlight-fill: derive(-fx-control-inner-background,-20%);
+    -fx-highlight-text-fill: -fx-text-inner-color;
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
+    -fx-background-color: linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
+        linear-gradient(from 0px 0px to 0px 5px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
+    -fx-background-insets: 0, 1;
+    -fx-background-radius: 3, 2;
+    -fx-cursor: text;
+    -fx-padding: 0.333333em 0.583em 0.333333em 0.583em; /* 4 7 4 7 */
+}
+.text-input:focused {
+    -fx-highlight-fill: -fx-accent;
+    -fx-highlight-text-fill: white;
+    -fx-background-color: 
+        -fx-focus-color,
+        -fx-control-inner-background,
+        -fx-faint-focus-color,
+        linear-gradient(from 0px 0px to 0px 5px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
+    -fx-background-insets: -0.2, 1, -1.4, 3;
+    -fx-background-radius: 3, 2, 4, 0;
+    -fx-prompt-text-fill: transparent;
+}
+.toggle-button:selected {
+  -fx-background-color: black,
+  linear-gradient(to bottom, derive(red,-90%) 0%, derive(blue,-60%) 100%),
+  linear-gradient(to bottom, derive(red,-60%) 0%, derive(blue,-35%) 50%, derive(red,-30%) 98%, derive(blue,-50%) 100%),
+  linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);
+}
+
+
+.chart{
+	-fx-clockwise: false;
+	-fx-pie-label-visible: true;
+	-fx-label-line-length: 5;
+	-fx-start-angle:90;
+}
+
+.chart-legend{
+	-fx-background-color: #f0e68c;
+	-fx-stroke: #696969;
+}
+
+.menu-item .label {
+    -fx-text-fill: white;
+}
+
+.menu-item:focused {
+     -fx-background-color: darkgray;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: blue;
+}
+
+.context-menu {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: black;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+/*    -fx-padding: 0.666667em 0.083333em 0.666667em 0.083333em;  8 1 8 1 */
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; /* 4 1 8 1 */
+}
+
+.menu-bar{
+  -fx-background-color: transparent;
+  -fx-border-color:  transparent;
+ -fx-border-width: 2
+
+}
+
+.menu-bar .label {
+    -fx-font-size: 20 pt;
+    -fx-font-family: "Calibri";
+    -fx-text-fill: #dedede;
+
+}
+
+
+.menu:hover {
+    -fx-background-color: transparent;
+}
+
+
+.alert.information.dialog-pane {
+       -fx-font-size: 16px; 
+        -fx-font-weight: bold; -fx-fill: blue;
+}
+
+#loading {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+#loading {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+#loading:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#loading Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+
+#pane2{
+    -fx-background-image: url("background.jpg");
+    -fx-background-repeat: stretch;   
+}
+
+#signup {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+.alert.information.dialog-pane {
+   -fx-font-size: 16px; 
+        -fx-font-weight: bold; -fx-fill: blue;
+}
